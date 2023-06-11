@@ -1,0 +1,13 @@
+.experience__link {
+    &:not(:first-child){
+        margin-left: 10px;
+    }
+    &:hover,
+    &:focus {
+        color: #336fa291;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}

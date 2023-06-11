@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>My resume</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav class="header__nav">
+					<button
+						type="button"
+						class="header__contacts-btn"
+						data-menu-open>
+						Contacts
+					</button>
+					<ul class="list header__buttons">
+						<li class="header__item-button">
+							<button class="header__button" type="button">
+								<a href="" class="header__button-link"
+									>UK</a
+								>
+							</button>
+						</li>
+						<li class="header__item-button">
+							<button class="header__button" type="button">
+								<a href="" class="header__button-link"
+									>EN</a
+								>
+							</button>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__container">
+					<div class="my-photo">
+						<picture>
+							<source
+								srcset="./img/my-photo-768.webp 1x"
+								media="(min-width: 768px)"
+								type="image/webp" />
+
+							<source
+								srcset="./img/my-photo-768.jpg 1x"
+								media="(min-width: 768px)" />
+
+							<source
+								srcset="./img/my-photo-480.webp 1x"
+								media="(min-width: 480px)" />
+
+							<img
+								src="./img/my-photo-480.jpg"
+								alt="my photo" />
+						</picture>
+					</div>
+					<h2 class="title header__work-position">
+						Junior Frontend Developer
+					</h2>
+					<h1 class="title header__name">Klymenko Olena</h1>
+				</div>
+			</div>
+			<div class="header__contacts-menu" data-menu>
+				<button
+					type="button"
+					class="header__contacts-close__btn"
+					data-menu-close>
+					<svg class="modal__icon" width="20" height="20">
+						<use
+							href="./img/icons.svg#icon-close-btn"></use>
+					</svg>
+				</button>
+				<ul class="list header__contacts-list">
+					<li class="contacts__item">
+						<a
+							class="contacts__link link"
+							href="tel:+380676205868">
+							<div class="contacts__svg">
+								<svg
+									class="contacts__icon"
+									width="20"
+									height="24">
+									<use
+										href="./img/icons.svg#icon-smartphone"></use>
+								</svg>
+							</div>
+							<p class="contacts__text">
+								+38 067 620 58 68
+							</p>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a
+							href="mailto:ekv8686@gmail.com"
+							class="contacts__link link">
+							<div class="contacts__svg">
+								<svg
+									class="contacts__icon"
+									width="20"
+									height="24">
+									<use
+										href="./img/icons.svg#icon-envelope"></use>
+								</svg>
+							</div>
+							<p class="contacts__text">
+								ekv8686@gmail.com
+							</p>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a
+							href="https://www.linkedin.com/in/olena-klymenko-001529277/"
+							class="link contacts__link"
+							target="_blank"
+							rel="noopener noreferrer">
+							<div class="contacts__svg">
+								<svg
+									class="contacts__icon"
+									width="20"
+									height="24">
+									<use
+										href="./img/icons.svg#icon-linkedin"></use>
+								</svg>
+							</div>
+							<p class="contacts__text">Linkedin</p>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a
+							href="https://github.com/ekv86"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="contacts__link link">
+							<div class="contacts__svg">
+								<svg
+									class="contacts__icon"
+									width="24"
+									height="28">
+									<use
+										href="./img/icons.svg#icon-cat"></use>
+								</svg>
+							</div>
+							<p class="contacts__text">GitHub</p>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a
+							href="https://t.me/OlenaKlm/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="contacts__link link">
+							<div class="contacts__svg">
+								<svg
+									class="contacts__icon"
+									width="24"
+									height="28">
+									<use
+										href="./img/icons.svg#icon-telegram"></use>
+								</svg>
+							</div>
+							<p class="contacts__text">Telegram</p>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<p class="link">Dnipro, Ukraine</p>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="about">
+					<h2 class="title about__title">Summary</h2>
+					<p class="text about__text">
+						I am a Junior Front End developer. I focus on
+						HTML5, CSS3, JS. I have analytical thinking and
+						well-developed organizational skills. I am
+						punctual and always stick to deadlines. I can
+						work in a team for results.
+					</p>
+				</section>
+				<section class="experience">
+					<h2 class="title">Project Experience</h2>
+					<ul class="list experience__list">
+						<li class="list-item experience__item">
+							<a
+								class="link experience__link"
+								href="https://ekv86.github.io/WebStudio/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>WebStudio</a
+							>
+							<a
+								class="link experience__link"
+								href="https://github.com/ekv86/WebStudio"
+								target="_blank"
+								rel="noopener noreferrer"
+								>GitHub-repository</a
+							>
+							<p class="text">
+								(HTML, SASS, JS) A website of WebStudio
+								company. Responsive design, transform
+								effects, modal windows.
+							</p>
+							<p class="text">Role: developer</p>
+							<p class="text">Individual project.</p>
+						</li>
+						<li class="list-item experience__item">
+							<a
+								class="link experience__link"
+								href="https://ekv86.github.io/Ice_Cream/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Ice Cream</a
+							>
+							<a
+								class="link experience__link"
+								href="https://github.com/ekv86/Ice_Cream"
+								target="_blank"
+								rel="noopener noreferrer"
+								>GitHub-repository</a
+							>
+							<p class="text">
+								(HTML, SASS, JS) Ice company website with
+								responsive layout, burger menu, modal window
+								and attractive design.
+							</p>
+							<p class="text">Role: developer</p>
+							<p class="text">Individual project.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="education">
+					<h2 class="title">Education</h2>
+					<ul class="list">
+						<li class="list-item education__item">
+							<span>2023 IT School GoIT</span>
+							<p class="text">Fullstack Developer</p>
+						</li>
+						<li class="list-item education__item">
+							<span
+								>2008 Alfred Nobel University, Dnipro</span
+							>
+							<p class="text">Financial Management</p>
+						</li>
+					</ul>
+				</section>
+				<section class="work">
+					<h2 class="title">Work Experience</h2>
+					<ul class="list">
+						<li class="list-item work__item">
+							<span>Head of Procurement Department</span>
+							<p class="text">2022-2023 LLC Matroluxe</p>
+							<p class="text">
+								Production of mattresses, upholstered
+								furniture, cabinet furniture
+							</p>
+						</li>
+						<li class="list-item work__item">
+							<span>Head of Procurement Department</span>
+							<p class="text">
+								2021-2022 LLC Partner Decor
+							</p>
+							<p class="text">
+								Production of medical masks, decoration of
+								dishes
+							</p>
+						</li>
+						<li class="list-item work__item">
+							<span>Head of Procurement Department</span>
+							<p class="text">2016-2021 LLC ABK Dnipro</p>
+							<p class="text">Alcohol production</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<aside>
+				<div class="container">
+					<section class="contacts">
+						<h2 class="title">Contact information</h2>
+						<ul class="list">
+							<li class="contacts__item">
+								<a
+									class="contacts__link link"
+									href="tel:+380676205868">
+									<div class="contacts__svg">
+										<svg
+											class="contacts__icon"
+											width="20"
+											height="24">
+											<use
+												href="./img/icons.svg#icon-smartphone"></use>
+										</svg>
+									</div>
+									<p class="contacts__text">
+										+38 067 620 58 68
+									</p>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									href="mailto:ekv8686@gmail.com"
+									class="contacts__link link">
+									<div class="contacts__svg">
+										<svg
+											class="contacts__icon"
+											width="20"
+											height="24">
+											<use
+												href="./img/icons.svg#icon-envelope"></use>
+										</svg>
+									</div>
+									<p class="contacts__text">
+										ekv8686@gmail.com
+									</p>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									href="https://www.linkedin.com/in/olena-klymenko-001529277/"
+									class="link contacts__link"
+									target="_blank"
+									rel="noopener noreferrer">
+									<div class="contacts__svg">
+										<svg
+											class="contacts__icon"
+											width="20"
+											height="24">
+											<use
+												href="./img/icons.svg#icon-linkedin"></use>
+										</svg>
+									</div>
+									<p class="contacts__text">Linkedin</p>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									href="https://github.com/ekv86"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="contacts__link link">
+									<div class="contacts__svg">
+										<svg
+											class="contacts__icon"
+											width="24"
+											height="28">
+											<use
+												href="./img/icons.svg#icon-cat"></use>
+										</svg>
+									</div>
+									<p class="contacts__text">GitHub</p>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									href="https://t.me/OlenaKlm/"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="contacts__link link">
+									<div class="contacts__svg">
+										<svg
+											class="contacts__icon"
+											width="24"
+											height="28">
+											<use
+												href="./img/icons.svg#icon-telegram"></use>
+										</svg>
+									</div>
+									<p class="contacts__text">Telegram</p>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<p class="link">Dnipro, Ukraine</p>
+							</li>
+						</ul>
+					</section>
+					<section class="tech-skills">
+						<h2 class="title">Tech Skills</h2>
+						<ul class="list">
+							<li class="list-item">HTML</li>
+							<li class="list-item">CSS</li>
+							<li class="list-item">SASS</li>
+							<li class="list-item">
+								Responsive/Adaptive Design
+							</li>
+							<li class="list-item">JavaScript</li>
+							<li class="list-item">GIT</li>
+							<li class="list-item">Parcel, Webpack</li>
+						</ul>
+					</section>
+					<section class="soft-skills">
+						<h2 class="title">Soft Skills</h2>
+						<ul class="list">
+							<li class="list-item">Team Work</li>
+							<li class="list-item">Punctuality</li>
+							<li class="list-item">Stick to deadlines</li>
+							<li class="list-item">Autonomous</li>
+							<li class="list-item">Attentive</li>
+							<li class="list-item">Good communication</li>
+						</ul>
+					</section>
+					<section class="languages">
+						<h2 class="title">Languages</h2>
+						<ul class="list">
+							<li class="list-item">
+								English - Intermediate
+							</li>
+							<li class="list-item">Ukrainian - Native</li>
+							<li class="list-item">Russian - Fluent</li>
+						</ul>
+					</section>
+				</div>
+			</aside>
+			<address>
+				<div class="container">
+					<h2 class="title">Contact information</h2>
+					<ul class="list">
+						<li class="contacts__item">
+							<a
+								class="contacts__link link"
+								href="tel:+380676205868">
+								<div class="contacts__svg">
+									<svg
+										class="contacts__icon"
+										width="20"
+										height="24">
+										<use
+											href="./img/icons.svg#icon-smartphone"></use>
+									</svg>
+								</div>
+								<p class="contacts__text">
+									+38 067 620 58 68
+								</p>
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a
+								href="mailto:ekv8686@gmail.com"
+								class="contacts__link link">
+								<div class="contacts__svg">
+									<svg
+										class="contacts__icon"
+										width="20"
+										height="24">
+										<use
+											href="./img/icons.svg#icon-envelope"></use>
+									</svg>
+								</div>
+								<p class="contacts__text">
+									ekv8686@gmail.com
+								</p>
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a
+								href="https://www.linkedin.com/in/olena-klymenko-001529277/"
+								class="link contacts__link"
+								target="_blank"
+								rel="noopener noreferrer">
+								<div class="contacts__svg">
+									<svg
+										class="contacts__icon"
+										width="20"
+										height="24">
+										<use
+											href="./img/icons.svg#icon-linkedin"></use>
+									</svg>
+								</div>
+								<p class="contacts__text">Linkedin</p>
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a
+								href="https://github.com/ekv86"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="contacts__link link">
+								<div class="contacts__svg">
+									<svg
+										class="contacts__icon"
+										width="24"
+										height="28">
+										<use
+											href="./img/icons.svg#icon-cat"></use>
+									</svg>
+								</div>
+								<p class="contacts__text">GitHub</p>
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a
+								href="https://t.me/OlenaKlm/"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="contacts__link link">
+								<div class="contacts__svg">
+									<svg
+										class="contacts__icon"
+										width="24"
+										height="28">
+										<use
+											href="./img/icons.svg#icon-telegram"></use>
+									</svg>
+								</div>
+								<p class="contacts__text">Telegram</p>
+							</a>
+						</li>
+						<li class="contacts__item">
+							<p class="link">Dnipro, Ukraine</p>
+						</li>
+					</ul>
+				</div>
+			</address>
+		</main>
+		<script src="./js/mobile-menu.js"></script>
+	</body>
+</html>
