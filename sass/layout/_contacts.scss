@@ -1,4 +1,4 @@
-address {
+.address {
 	font-style: normal;
 	background-color: rgb(211 158 158 / 64%);
 }
@@ -54,7 +54,7 @@ address {
 	}
 }
 @media screen and (min-width: 768px) {
-	address {
+	.address {
 		display: none;
 	}
 	.contacts {
