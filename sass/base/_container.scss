@@ -18,17 +18,42 @@
 		width: 768px;
 		margin-left: auto;
 		margin-right: auto;
-		
 	}
 
 	.container {
+		width: auto;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	aside {
+		background-color: rgb(211 158 158 / 64%);
+		width: 300px;
+		margin-top: 173px;
+	}
+
+	.aside__container {
+		width: 300px;
+		margin-left: 5px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	.main {
 		width: 1200px;
+	}
+
+	.main__container {
+		margin-left: 70px;
+	}
+
+	aside {
+		width: 400px;
+		margin-top: 200px;
+	}
+
+	.aside__container {
+		width: 400px;
+		margin-left: 20px;
 	}
 }
